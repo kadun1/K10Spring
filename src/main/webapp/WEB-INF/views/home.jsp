@@ -68,6 +68,74 @@
 		</a>
 	</li>
 	
+	<!-- 컨트롤러 : ValidateController.java -->
+	<h2>폼 데이터 검증하기 - Validator</h2>
+	<li>
+		<a href="validate/memberRegist.do" target="_blank">
+			회원가입 바로가기
+		</a>
+	</li>
+	
+	<!-- 컨트롤러 : DIController.java -->
+	<h3>DI(Dependency Injection) : 의존성주입</h3>
+	<li>
+		<a href="di/myCalculator" target="_blank">
+			간단한 사칙연산 계산기
+		</a>
+	</li>
+	
+	<li>
+		<a href="di/myBMICal" target="_blank">
+			BMI(비만지수) 계산하기
+		</a>
+	</li>
+	
+	<li>
+		<a href="di/myAvengers" target="_blank">
+			어벤져스 히어로
+		</a>
+	</li>
+	
+	<li>
+		<a href="di/myAnnotation" target="_blank">
+			어노테이션을 이용한 DI활용
+		</a>
+	</li>
+	
+	<h3>Environment 객체를 이용한 외부파일 참조하기</h3>
+	<li>
+		<a href="environment/main1" target="_blank">
+			외부파일 참조하기 1(Environment객체 사용)
+		</a>
+	</li>
+	<li>
+		<a href="environment/main2" target="_blank">
+			외부파일 참조하기 2(XML설정파일 사용)
+		</a>
+	</li>
+	
+	<li>
+		<a href="environment/main3" target="_blank">
+			외부파일 참조하기 3(어노테이션 사용)
+		</a>
+	</li>
+
+	<h3>파일업로드</h3>
+	<li>
+		<a href="./fileUpload/uploadPath.do" target="_blank">
+			upload폴더의 물리적 경로 확인하기
+		</a>
+	</li>
+	<li>
+		<a href="./fileUpload/uploadForm.do" target="_blank">
+			파일업로드 폼
+		</a>
+	</li>
+	<li>
+		<a href="./fileUpload/uploadList.do" target="_blank">
+			파일목록보기
+		</a>
+	</li>
 </div>
 </body>
 </html>
