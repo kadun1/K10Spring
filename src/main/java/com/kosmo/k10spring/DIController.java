@@ -107,8 +107,7 @@ public class DIController {
 		str1 += "몸무게:"+mem1.getWeight()+"<br/>";
 		str1 += "BMI결과:"+mem1.bmiCalculation();
 		
-		BMIInfoView mem2 =
-			aCtx.getBean("member2", BMIInfoView.class);
+		BMIInfoView mem2 = aCtx.getBean("member2", BMIInfoView.class);
 		
 		String str2 = "이름:"+mem2.getName()+"<br/>";
 		str2 += "취미:"+mem2.getHobbys()+"<br/>";
