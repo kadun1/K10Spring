@@ -17,6 +17,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
 import org.springframework.web.servlet.ModelAndView;
@@ -140,6 +141,9 @@ public class FileuploadController {
 		model.addAttribute("returnObj", returnObj);
 		return "06FileUpload/uploadAction";
 	}
+	
+	
+	
 	
 	//파일목록보기
 	@RequestMapping("/fileUpload/uploadList.do")
